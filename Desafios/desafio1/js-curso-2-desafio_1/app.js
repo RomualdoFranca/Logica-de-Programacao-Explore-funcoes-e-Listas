@@ -22,6 +22,7 @@ function pedir2NumerosInteiros() {
 
     let primeiroNumero = prompt('Digite o 1° número.');
     let segundoNumero = prompt('Digite o 2° número.');
-    let resultadoSoma = primeiroNumero + segundoNumero;
+    //converte string em inteiro
+    let resultadoSoma = parseInt(primeiroNumero) + parseInt(segundoNumero);
     alert(`A soma de ${primeiroNumero} + ${segundoNumero} = ${resultadoSoma}`);
 }
