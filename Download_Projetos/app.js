@@ -1,10 +1,14 @@
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Jogo do Número Secreto';
+function exibirTextoNaTela(tag, texto) {
+    let campos = document.querySelector(tag);
+    campos.innerHTML = texto;
+}
 
-let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha o um número entre 1 e 10';
+exibirTextoNaTela('h1', 'Jogo do Número Secreto');
+exibirTextoNaTela('p', 'Escolha o um número entre 1 e 10');
+
+
 // tem responsabilidade de realizar alguma ação. tem de ter uma responsabilidade única
 function verificarChute() {
 
-    console.log('O botão foi clicado')
+    console.log('O botão foi clicado');
 }
