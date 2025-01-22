@@ -47,6 +47,18 @@ header {
   .button:hover {
     background-color: #2980b9;
   }
+  input {
+    padding: 10px 10px;
+    margin: 50px 50px;
+    font-size: 24px ;
+    border: none;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#2b242c;
+  }
+
+
   h1 {
     color: #b0c0ca ;
   }
