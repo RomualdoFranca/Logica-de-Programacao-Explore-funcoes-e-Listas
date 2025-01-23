@@ -3,3 +3,11 @@ function exibirMensagem(){
     console.log('Ola Mundo!');
 }
 exibirMensagem();
+
+// criar uma função que recebe um nome como parametro e exibe 'Olá,[nome], no console
+function exibirMensagemComNome(nome){
+    console.log(`Olá, ${nome}!`);
+}
+exibirMensagemComNome('Lua');
+
+// criar uma função que recebe um número como parâmetro e retorna o dobro desse número
