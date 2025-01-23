@@ -35,3 +35,10 @@ function retornaMaiorNumero(numA, numB) {
     }
 }
 retornaMaiorNumero(2, 0);
+
+// criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+function multiplicarPorEleMesmo(numero) {
+    let resultado = numero * numero;
+    console.log(resultado);
+}
+multiplicarPorEleMesmo(7);
