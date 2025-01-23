@@ -9,10 +9,17 @@ function exibirMensagemComNome(nome){
     console.log(`Olá, ${nome}!`);
 }
 exibirMensagemComNome('Lua');
-
+// implementa e testa a funcao do exercicio 4
 // criar uma função que recebe um número como parâmetro e retorna o dobro desse número
 function dobraNumero(numero) {
     let dobro = 2 * numero;
     console.log(`O dobro de ${numero} é ${dobro}`);
 }
 dobraNumero(10);
+
+// criar uma função que receba 3 números como parâmetros e retorna a média deles
+function calculaMedia(num1, num2, num3) {
+    let media = (num1 + num2 + num3) / 3;
+    console.log(`A média de ${num1}, ${num2} e ${num3} é igual a ${media}`);
+}
+calculaMedia(3, 7, 5);
