@@ -1,10 +1,14 @@
-function inputNumero(numero) {
-    numero = console.log(prompt('Digite um número.'));
-    return parseInt(numero);
-}
 
-console.log(inputNumero());
 
-function verificaNumeroPositivoNegativoZero() {
-    console.log (inputNumero() > 0 ? 'Positivo' : 'Negativo');
+function verificaNumeroPositivoNegativoZero(numero) {
+    if(numero > 0) {
+        console.log('Positivo');
+    } else if(numero < 0) {
+        console.log('Negativo');
+    } else {
+        console.log('Zero')
+    }
 }
+let input = console.log(prompt('Digite um número'));
+parseInt(input);
+verificaNumeroPositivoNegativoZero(input);
