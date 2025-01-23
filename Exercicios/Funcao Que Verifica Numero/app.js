@@ -9,6 +9,5 @@ function verificaNumeroPositivoNegativoZero(numero) {
         console.log('Zero')
     }
 }
-let input = console.log(prompt('Digite um número'));
-parseInt(input);
-verificaNumeroPositivoNegativoZero(input);
+
+verificaNumeroPositivoNegativoZero(4);
