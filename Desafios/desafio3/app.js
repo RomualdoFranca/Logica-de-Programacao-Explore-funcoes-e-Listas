@@ -23,3 +23,15 @@ function calculaMedia(num1, num2, num3) {
     console.log(`A média de ${num1}, ${num2} e ${num3} é igual a ${media}`);
 }
 calculaMedia(3, 7, 5);
+
+// criar uma função que receba 2 números como parâmetros e retorna o maior deles
+function retornaMaiorNumero(numA, numB) {
+    if(numA > numB) {
+        console.log(`${numA} é o número maior`);
+    } else if(numB > numA) {
+        console.log(`${numB} é o número maior`);
+    }else {
+        console.log('Os números são iguais');
+    }
+}
+retornaMaiorNumero(2, 0);
