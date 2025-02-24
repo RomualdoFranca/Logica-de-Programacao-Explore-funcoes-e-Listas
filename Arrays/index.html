@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arrays</title>
+</head>
+<body>
+    <main>
+        <h1>Testando Propriedades das Arrays</h1>
+
+        <h2>Using the JavaScript Keyword new</h2>
+        <p id="carros">Lista de carros</p>
+
+        <h2>Convertendo uma Array para String</h2>
+        <p id="frutas"></p>
+
+        <h2>Informações de um aluno</h2>
+        <p id="aluno" class="primeiroNome()"></p>
+        <!--  -->
+        <div class="inputs">
+            <label for="fName">NOME</label>
+            <input type="text" id="nome" class="container-inputs" >
+            <input type="submit" value="OK" onclick="exibeNome()">
+            
+            <!-- <button onclick="confirmaNome()" class="button" >Nome</button> -->
+        </div>
+        
+        <input type="text" class="container-inputs" placeholder="Digite o sobrenome">
+        <div class="botoes">
+            <button onclick="insereSobrenome()" class="button" >Sobrenome</button>
+            <button onclick="insereIdade()" class="button" >Idade</button>
+
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
