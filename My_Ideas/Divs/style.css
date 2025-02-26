@@ -1,0 +1,42 @@
+body {
+    background: #202020;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background: #f7f7f7;
+    width: 70%;
+    height: 500px;
+    border: 1px solid green;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    border: 1px solid red;
+    margin-bottom: 2em;
+
+}
+.div-1, .div-2 {
+    background: #009696;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+}
+
+.div-2 {
+    background: magenta;
+}
+
+button {
+    width: 4em;
+    height: 2em;
+    /* padding: 1em 0; */
+}
