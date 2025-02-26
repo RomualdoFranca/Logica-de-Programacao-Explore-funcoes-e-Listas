@@ -1,7 +1,7 @@
 let numeroLimite = 10;
 let numeroSecreto = geraNumeroSecreto();
 let indexImg = 0;
-const fotos = ["./img/Phase_1.png", "./img/Phase_2.png", "./img/Phase_3.png", "./img/Phase_4.png", "./img/Phase_5.png", "./img/Phase_6.png", "./img/Phase_7.png", "./img/Phase_8.png", "./img/Phase_9.png"]
+const fotos = ["./img/Phase_1.png", "./img/Phase_2.png", "./img/Phase_3.png", "./img/Phase_4.png", "./img/Phase_5.png", "./img/Phase_6.png", "./img/Phase_7.png", "./img/Phase_8.png", "./img/Phase_9.png"];
 console.log("Número sorteado " + numeroSecreto);
 
 function geraNumeroSecreto() {
