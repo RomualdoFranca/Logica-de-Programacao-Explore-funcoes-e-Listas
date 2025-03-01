@@ -1,3 +1,8 @@
+
+h1,
+p {
+    text-align: center;
+}
 .container {
     width: 90%;
     max-width: 600px;
@@ -14,9 +19,17 @@
     color: #fa0800;
 
 }
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.modo-escuro {
+.modo-escuro,
+.modo-escuro section,
+.modo-escuro section > button {
     background: #222222;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #005f5f;
+    /* border: 2px solid white; */
 }
