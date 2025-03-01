@@ -83,7 +83,7 @@ input {
     border-style: none;
     border-radius: 10px;
     margin-bottom: .2em;
-    background: #ebe2d1;
+    background-color: #ebe2d1;
 }
 
 /* layout button */
@@ -92,7 +92,7 @@ button {
     padding: .5em 0;
     border-radius: 10px;
     border-color: #2c2c2c;
-    background: #ebe2d1;
+    background-color: #ebe2d1;
 }
 
 @media (max-width:262px) {
@@ -104,24 +104,28 @@ button {
     }
 }
 
-@media (max-width: 262px) {
+/* @media (max-width: 262px) {
 
     .conteudo-principal {
         background: #131313;
     }
-
+    
     h1,
     p{
         color: #e4e3e3;
     }
-
+    
     input,
     button {
         background: #e4e3e3;
         color: #131313;
     }
-}
-/* button:hover {
-    
-    background: #e9a7a7;
 } */
+
+.black-style {
+    background-color: #131313;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua !important;
+
+}
+
