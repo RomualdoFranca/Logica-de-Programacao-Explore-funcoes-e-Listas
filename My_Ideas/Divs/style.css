@@ -25,10 +25,14 @@ body {
 
 }
 .div-1, .div-2 {
-    background: #009696;
+    /* background: #009696; */
     width: 20%;
     height: 150px;
     text-align: center;
+}
+
+.div-1 {
+    background: cyan;
 }
 
 .div-2 {
