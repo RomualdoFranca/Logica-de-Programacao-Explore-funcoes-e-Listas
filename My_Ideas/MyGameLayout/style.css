@@ -1,6 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 body {
     margin: 0;
@@ -23,14 +24,14 @@ p,
 input,
 button {
     text-align: center;
-    color: #7a6726;
+    color: #2c2c2c;
     /* border: 1px solid green; */
     
 }
 
 button, input {
     font-size: 400;
-    font-family: "Zen Dots", serif;
+    font-family: "Russo One", serif;
     
 }
 input {
@@ -61,12 +62,12 @@ h1, p {
     /* display: flex;  */
     /* flex-direction: column;
     justify-content: center; */
-    background: #ffe9bf;
+    background: #9c968b;
 }
 
 section {
     /* border: 1px solid green; */
-    margin: 1em;
+    margin-bottom: .5em;
 }
 
 .input-botao {
@@ -82,21 +83,42 @@ input {
     border-style: none;
     border-radius: 10px;
     margin-bottom: .2em;
-    background: #fffaf1;
+    background: #ebe2d1;
 }
 
 /* layout button */
 button {
     width: 45%;
-    padding: .1em 0;
+    padding: .5em 0;
     border-radius: 10px;
-    border-color: #7a6726;
-    background: #fffaf1;
+    border-color: #2c2c2c;
+    background: #ebe2d1;
 }
 
 @media (max-width:262px) {
     h1 {
         font-size: 1.5rem;
+    }
+    p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 262px) {
+
+    .conteudo-principal {
+        background: #131313;
+    }
+
+    h1,
+    p{
+        color: #e4e3e3;
+    }
+
+    input,
+    button {
+        background: #e4e3e3;
+        color: #131313;
     }
 }
 /* button:hover {
