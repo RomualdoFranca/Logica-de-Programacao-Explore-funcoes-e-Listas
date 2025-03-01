@@ -9,5 +9,97 @@ body {
     font-family: "Zen Dots", serif;
     font-size: 1.125rem;
     font-weight: 300;
+    
+}
+
+/* topopgrafia */
+
+h1 {
+    font-size: 2rem;
+}
+
+h1,
+p,
+input,
+button {
+    text-align: center;
+    color: #7a6726;
+    /* border: 1px solid green; */
+    
+}
+
+button, input {
+    font-size: 400;
+    font-family: "Zen Dots", serif;
+    
+}
+input {
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* layout */
+
+h1, p {
+    margin: 0;
+}
+/* div principal */
+.container {
+    max-width: 90%;
+    width: 675px;
+    margin: 0 auto;
+    /* background: #a9ffff; */
 
 }
+
+.conteudo-principal {
+    /* display: flex;  */
+    /* flex-direction: column;
+    justify-content: center; */
+    background: #ffe9bf;
+}
+
+section {
+    /* border: 1px solid green; */
+    margin: 1em;
+}
+
+.input-botao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* layout input */
+input {
+    width: 100%;
+    padding: .1em 0;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: .2em;
+    background: #fffaf1;
+}
+
+/* layout button */
+button {
+    width: 45%;
+    padding: .1em 0;
+    border-radius: 10px;
+    border-color: #7a6726;
+    background: #fffaf1;
+}
+
+@media (max-width:262px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+/* button:hover {
+    
+    background: #e9a7a7;
+} */
