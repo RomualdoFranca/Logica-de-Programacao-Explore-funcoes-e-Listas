@@ -1,4 +1,14 @@
 
+let numeroLimite = 10;
+let numeroSecreto = geraNumeroAleatorio();
+
+function geraNumeroAleatorio() {
+    let numero = parseInt(Math.random() * numeroLimite + 1);
+    return numero;
+}
+
+console.log("Numero secreto: " + numeroSecreto);
+
 function toggleClass(elemento, classe) {
     if(elemento) {
         elemento.classList.toggle(classe);
